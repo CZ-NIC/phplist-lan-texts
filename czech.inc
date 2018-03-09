@@ -28,7 +28,7 @@ $strThanks              = 'Děkujeme za přihlášení k naší databázi.';
 # the EmailConfirmation message can contain placeholders
 #$strEmailConfirmation   = 'Váš email [email] byl přidán do našeho systému. V krátké době obdržíte emailem žádost o potvrzení přihlášení k Vámi zvoleným newsletterům.';
 $strEmailConfirmation   = 'Váš email byl přidán do našeho systému. Obdržíte email s požadavkem o potvrzení vašeho přihlášení. Kliknutím na odkaz potvrdíte přihlášení.';
-$strEmailFailed          = 'Email s požadavkem potvrzení registrace se nepodařilo odeslat. Klikněte, prosím, na tlačítko "Obnovit" ke zopakování odeslání. Pokud problém přetrvává, kontaktujte prosím administrátora.';
+$strEmailFailed          = 'Email s požadavkem potvrzení registrace se nepodařilo odeslat. Klikněte, prosím, na tlačítko "Obnovit" pro zopakování odeslání. Pokud problém přetrvává, kontaktujte prosím administrátora.';
 $strUnsubscribeTitle    = 'Odhlášení z naší databáze';
 $strUnsubscribeDone     = 'Byli jste úspěšně odhlášeni z naší databáze, obdržíte email s žádostí o potvrzení odhlášení.';
 $strUnsubscribedNoConfirm = 'Byli jste úspěšně odhlášeni z naší databáze';
@@ -39,27 +39,27 @@ $strUnsubscribeSelect   = 'Vyberte, databáze ze kterých se chcete odhlásit';
 $strAllLists            = 'Všechny databáze';
 $strNoLists             = 'Žádná';
 $strUnsubscribeRequestForReason = 'Je nám líto, že nemáte zájem nadále odebírat náš newsletter. Pokud nám chcete pomoci zlepšit naše služby, sdělte nám prosím důvod vašeho odhlášení:';
-$strUnsubscribeFinalInfo = '<br/><b>Pozor</b>: tato stránka slouží ke zrušení <b>navždy</b> odběru našeho newsletteru. Pokud chcete pouze změnit Vaši emailovou adresou nebo změnit informace <a href="[PREFERENCESURL]">změňte Vaše nastavení</a>';
+$strUnsubscribeFinalInfo = '<br/><b>Pozor</b>: tato stránka slouží k <b>trvalému</b> zrušení odběru našeho newsletteru. Pokud chcete pouze změnit Vaši emailovou adresou nebo změnit informace <a href="[PREFERENCESURL]">změňte Vaše nastavení</a>';
 $strNoListsFound        = 'Tímto emailem nejste příhlášen do žádné naší databáze';
 $strResubmit            = 'Znovu potvrdit';
 $strUnsubscribeSubmit   = 'Odhlášení z vybraných databází';
-$strValuesMissing       = 'Následující vyžadovaná pole nejsou vyplněna';
-$strConfirmInfo         = 'Děkujeme za potvrzení přihlášení k našim newsletterům. Seznam Newsletterů, k jejichž odběru jste se přihlásili';
+$strValuesMissing       = 'Následující povinná pole nejsou vyplněna';
+$strConfirmInfo         = 'Děkujeme za potvrzení přihlášení k našim newsletterům. Seznam newsletterů, k jejichž odběru jste se přihlásili';
 $strAlreadyConfirmed    = 'Vaše potvrzení jsme již obdrželi.';
 $strConfirmTitle        = 'Potvrzovací stránka';
 $strUserNotFound        = 'Uživatel nenalezen';
 $strUserAlreadyInitialised = 'Vaše heslo bylo již nastaveno';
-$strConfirmFailInfo     = 'Litujeteme, ale při potvrzení došlo k chybě. Ujistětete se zda jste vyplnili úplnou webovou adresu, kterou jste obdrželi v emailu. Občas bývá adresa zalomena na několik řádků.';
-$strPreferHTMLEmail     = 'Preferuji zasílání mailů v HTML';
-$strPreferTextEmail     = 'Preferuju zasílání mailů v prostém textu';
-$strPreferredFormat      = 'Preferovaný formát mailů:';
+$strConfirmFailInfo     = 'Litujeme, ale při potvrzení došlo k chybě. Ujistěte se, zda jste vyplnili úplnou webovou adresu, kterou jste obdrželi v emailu. Občas bývá adresa zalomena na několik řádků.';
+$strPreferHTMLEmail     = 'Preferuji zasílání emailů v HTML';
+$strPreferTextEmail     = 'Preferuju zasílání emailů v prostém textu';
+$strPreferredFormat      = 'Preferovaný formát emailů:';
 $strText                 = 'Text';
 $strHTML                = 'HTML';
 $strPreferencesTitle    = 'Aktualizujte své vlastnosti';
-$strPreferencesInfo     = 'Potvrdte, prosím, že uvedená data jsou správná a klikněte na tlačítko "Aktualizovat"';
+$strPreferencesInfo     = 'Potvrďte, prosím, že uvedená data jsou správná a klikněte na tlačítko "Aktualizovat"';
 $strUpdatePreferences   = 'Aktualizovat';
-$strPreferencesEmailChanged = 'Váš emailová adresa byla změněna. Klikněte prosím na odkaz v emailu, který obdržíte. Tím dojde k potvrzení změny emailové adresy';
-$strYouAreBlacklisted = 'Na Vaší emailovou adresu nejsou zasílány žádné newslettery, protože jste požadoval zrušení zasílání newsletterů.<br/>
+$strPreferencesEmailChanged = 'Vaše emailová adresa byla změněna. Klikněte prosím na odkaz v emailu, který obdržíte. Tím dojde k potvrzení změny emailové adresy';
+$strYouAreBlacklisted = 'Na Vaši emailovou adresu nejsou zasílány žádné newslettery, protože jste požadoval zrušení zasílání newsletterů.<br/>
 Pokud chcete opět dostávat newslettery, je třeba ručního zásahu administrátora.
 Prosím, kontaktujte nás s požadavkem, že chcete opětovně dostávat newslettery. ';
 $strPreferencesNotificationSent = 'Obdržíte email s Vašimi změnami';
@@ -81,20 +81,20 @@ $strDaily               = 'Denně';
 $strWeekly             = 'Týdně';
 $strMonthly             = 'Měsíčně';
 $strChoosePassword      = 'Zvolte si heslo';
-$strConfirmPassword    = 'Potvrdte heslo';
+$strConfirmPassword    = 'Potvrďte heslo';
 $strEnterPassword       = 'Zadejte heslo';
 $strForgotPassword     = 'Zapomenuté heslo';
 $strForgotPasswordEmailBody = '
-    Vážený správce Newsletteru,
+    Vážený správce newsletteru,
 
-    Zapomněl jesm heslo pro phpList mailinglist systém.
+    Zapomněl jsem heslo pro phpList mailinglist systém.
     Můžete jej prosím resetovat a zaslat mi jej?
 
     Děkuji
 ';
 
 $strPassword           = 'Heslo';
-$strPassword2           = 'Potvrdte heslo';
+$strPassword2           = 'Potvrďte heslo';
 $strPasswordsNoMatch    = 'Hesla nejsou stejná';
 $strEmailsNoMatch     = 'Email, který jste zadal nesouhlasí';
 $strEmailNotValid  = 'Emailová adresa není platná';
@@ -108,8 +108,8 @@ $strLoginTitle          = 'Prosím zadejte váš email a heslo';
 $strLoginInfo           = 'Tato stránka vyžaduje Vaše heslo. Prosím zadejte Váš email a vaše heslo';
 $strPersonalLocationInfo = '
 <p>Tato stránka vyžaduje osobní identifikaci, kterou najdete v každém emailu, který jste od nás obdržel.<br/>
-  Pokud jste klikli na tento odkaz a přesto čtete toto hlášění, přesvědčte se prosím, že jste do prolhlížeče vložili celý odkaz. Občas je odkaz zalomen na několik řádků.</p>
-  <p>Pokud odkaz neznáte, vyžádejte si jej vložením Vaší emailové adresy a stiskem tlačítka "Pokračovat</p>"
+  Pokud jste klikli na tento odkaz a přesto čtete toto hlášění, přesvědčte se prosím, že jste do prohllížeče vložili celý odkaz. Občas je odkaz zalomen na několik řádků.</p>
+  <p>Pokud odkaz neznáte, vyžádejte si jej vložením Vaší emailové adresy a stiskem tlačítka "Pokračovat"</p>
 ';
 $strPersonalLocationSent = '<h3>Úspěch! V nejbližší době obdržíte email s Vaším osobním umístěním</h3>';
 $strUserExists   = 'Uživatel s tímto emailem již existuje a má jiné heslo';
@@ -136,6 +136,6 @@ $strForwardCountReached = 'Dosažen maximální počet přeposlání';
 $strForwardNoteLimitReached = 'Dosažena maximální délka vzkazu přeposlílaném';
 $strForwardFooter = 'Tato zpráva Vám byla přeposlána [FORWARDEDBY].
   Nebyl jste automaticky přihlášen do tohoto newsletteru.
-  Pokud chcete přihlásit přejděte na';
+  Pokud se chcete přihlásit přejděte na';
 $strForward = 'Přeposlat';
 $strFwd = 'Fwd'; # short version of forward for email subject
